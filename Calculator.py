@@ -28,6 +28,9 @@ txtresult = Entry(calc, font =('arial',16,'bold'),bg="SpringGreen2", bd=30, widt
 txtresult.grid(row=0,column=0, columnspan=4, pady=1)
 txtresult.insert(0, "0")
 
+numericbutton = "789456123"
+i =0
+
 menubar = Menu(calc)
 filemenu = Menu(menubar, tearoff=0)
 menubar.add_cascade(label ="Archivo", menu=filemenu)
